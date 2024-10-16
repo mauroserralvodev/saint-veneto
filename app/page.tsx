@@ -22,21 +22,28 @@ export default function OffWhiteHomepage() {
         </div>
       </div>
 
-      <header className="text-gray-600 bg-white body-font sticky top-0 ">
-        <div className="container mx-auto p-5 ">
+      <header className="text-gray-600 bg-white body-font sticky top-0 z-50">
+        <div className="container mx-auto p-5">
           <a className="flex items-center justify-center object-center">
-            <img src='/logo.png' className='w-56'/>
+            <img src='/logo.png' className='w-56' />
           </a>
         </div>
-          <div className="bg-gray-100 py-2 text-center text-sm border-b border-neutral-800">
-            <nav className="text-md">
-                <a href='#' className="mr-5 hover:text-gray-900">Sudaderas</a>
-                <a href='#'className="mr-5 hover:text-gray-900">Camisetas</a>
-                <a href='#' className="mr-5 hover:text-gray-900">Pantalones</a>
-                <a href='#' className="hover:text-gray-900">Acesorios</a>
-            </nav>
-          </div>
+        <div className="bg-gray-100 py-2 text-center text-sm border-b border-neutral-800">
+          <nav className="text-md">
+            <a href='#' className="mr-5 hover:text-gray-900">Sudaderas</a>
+            <a href='#' className="mr-5 hover:text-gray-900">Camisetas</a>
+            <a href='#' className="mr-5 hover:text-gray-900">Pantalones</a>
+            <a href='#' className="hover:text-gray-900">Accesorios</a>
+          </nav>
+        </div>
       </header>
+
+      <img 
+        src='main.jpg' 
+        className="w-full max-w-screen-md mx-auto sm:max-w-full sm:h-auto sm:mx-0"
+      />
+
+
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
@@ -167,57 +174,57 @@ export default function OffWhiteHomepage() {
             
             <div className="hover:border border-neutral-700 lg:w-1/4 md:w-1/2 p-4 w-full hover:bg-gray-100 transition">
               <a className="block rounded overflow-hidden">
-                <img alt="ecommerce" className="w-full h-full" src="/sudadera1.webp"/>
+                <img alt="ecommerce" className="w-full h-full" src="/accesorio6.webp"/>
               </a>
               <div className="mt-4">
                 <div className={inter2.className}>
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoodie</h3>
+                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Wallet</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Gang skate</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">bookish bifold</h2>
                 <div className={inter3.className}>
-                  <p className="mt-1">340 €</p>
+                  <p className="mt-1">275  €</p>
                 </div>
               </div>
             </div>
             <div className="hover:border border-neutral-700 lg:w-1/4 md:w-1/2 p-4 w-full hover:bg-gray-100 transition">
               <a className="block rounded overflow-hidden">
-                <img alt="ecommerce" className=" w-full h-full" src="/sudadera2.webp"/>
+                <img alt="ecommerce" className=" w-full h-full" src="/accesorio3.webp"/>
               </a>
               <div className="mt-4">
                 <div className={inter2.className}>
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Tee</h3>
+                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Handbag</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Big bookish</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">Leather day off</h2>
                 <div className={inter3.className}>
-                  <p className="mt-1">220 €</p>
+                  <p className="mt-1">950 €</p>
                 </div>
               </div>
             </div>
             <div className="hover:border border-neutral-700 lg:w-1/4 md:w-1/2 p-4 w-full hover:bg-gray-100 transition">
               <a className="block rounded overflow-hidden">
-                <img alt="ecommerce" className=" w-full h-full" src="/sudadera3.webp"/>
+                <img alt="ecommerce" className=" w-full h-full" src="/accesorio4.webp"/>
               </a>
               <div className="mt-4">
                 <div className={inter2.className}>
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoodie</h3>
+                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Handbag</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Out of office</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">torpedo mini bag</h2>
                 <div className={inter3.className}>
-                  <p className="mt-1">340 €</p>
+                  <p className="mt-1">440 €</p>
                 </div>
               </div>
             </div>
             <div className="hover:border border-neutral-700 lg:w-1/4 md:w-1/2 p-4 w-full hover:bg-gray-100 transition">
               <a className="block rounded overflow-hidden">
-                <img alt="ecommerce" className=" w-full h-full" src="/sudadera4.webp"/>
+                <img alt="ecommerce" className=" w-full h-full" src="/accesorio2.webp"/>
               </a>
               <div className="mt-4">
                 <div className={inter2.className}>
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoodie</h3>
+                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Sneakers</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Camo jacquard</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">3.0 off court</h2>
                 <div className={inter3.className}>
-                  <p className="mt-1">340 €</p>
+                  <p className="mt-1">650 €</p>
                 </div>
               </div>
             </div>

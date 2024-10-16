@@ -12,19 +12,14 @@ export default function OffWhiteHomepage() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Función para detectar el tamaño de la ventana
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 640);
     };
 
-    // Verifica el tamaño inicial
     handleResize();
-
-    // Añade un event listener para cambios de tamaño de pantalla
     window.addEventListener('resize', handleResize);
-
-    // Limpia el event listener cuando el componente se desmonta
     return () => window.removeEventListener('resize', handleResize);
+    
   }, []);
 
 

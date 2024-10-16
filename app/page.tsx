@@ -1,6 +1,6 @@
 "use client"
 import { VelocityScroll } from '@/components/ui/scroll-based-velocity'
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import TextRevealByWord from '@/components/ui/text-reveal';
@@ -9,6 +9,24 @@ const inter2 = IBM_Plex_Mono({ subsets: ['latin'], weight: "600" });
 const inter3 = IBM_Plex_Mono({ subsets: ['latin'], weight: "500" });
 
 export default function OffWhiteHomepage() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Función para detectar el tamaño de la ventana
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 640);
+    };
+
+    // Verifica el tamaño inicial
+    handleResize();
+
+    // Añade un event listener para cambios de tamaño de pantalla
+    window.addEventListener('resize', handleResize);
+
+    // Limpia el event listener cuando el componente se desmonta
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
@@ -40,9 +58,8 @@ export default function OffWhiteHomepage() {
 
       <img 
         src='main.jpg' 
-        className="w-full max-w-screen-md mx-auto sm:max-w-full sm:h-auto sm:mx-0"
+        className="w-full max-w-screen-md mx-auto sm:max-w-full sm:h-auto sm:mx-0 hidden sm:block"
       />
-
 
 
       <section className="text-gray-600 body-font">

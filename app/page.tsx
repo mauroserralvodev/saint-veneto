@@ -281,5 +281,6 @@ export default function OffWhiteHomepage() {
       </footer>
       </div>
     </div>
+    
   )
 }

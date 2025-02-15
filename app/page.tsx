@@ -71,12 +71,12 @@ export default function OffWhiteHomepage() {
 
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-64 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <div className="border hover:border-neutral-300 text-black hover:bg-gray-100/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
-              <a className="block overflow-hidden">
+            <a href='/black-shared-hoodie' className="border hover:border-neutral-300 text-black hover:bg-gray-100/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
+              <p className="block overflow-hidden cursor-pointer">
                 <img alt="ecommerce" className="w-full h-full" src="/modelo1.webp"/>
-              </a>
+              </p>
               <div className="mt-4">
                 <div className={inter2.className}>
                   <h3 className=" text-xs tracking-widest title-font mb-1">Hoodie</h3>
@@ -86,7 +86,7 @@ export default function OffWhiteHomepage() {
                   <p className="mt-1">695 €</p>
                 </div>
               </div>
-            </div>
+            </a>
             <div className="border hover:border-neutral-500 hover:bg-gray-100/10 border-l-transparent lg:w-1/4 md:w-1/2 p-4 w-full  transition">
               <a className="block rounded overflow-hidden">
                 <img alt="ecommerce" className=" w-full h-full" src="/modelo2.webp"/>
@@ -197,7 +197,7 @@ export default function OffWhiteHomepage() {
         <div className="container px-5 mx-auto">
           <div className="flex flex-wrap -m-4">
             
-            <div className="border hover:border-neutral-300 hover:bg-gray-100/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
+            <div className="border hover:border-neutral-500 hover:bg-gray-100/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
               <a className="block rounded overflow-hidden">
                 <img alt="ecommerce" className="w-full h-full" src="/accesorio6.webp"/>
               </a>
@@ -207,7 +207,7 @@ export default function OffWhiteHomepage() {
                 </div>
                 <h2 className="text-gray-900 title-font text-lg font-bold">BOOKISH BIFOLD</h2>
                 <div className={inter3.className}>
-                  <p className="mt-1">275  €</p>
+                  <p className="mt-1">275 €</p>
                 </div>
               </div>
             </div>

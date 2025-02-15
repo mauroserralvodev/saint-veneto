@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { IBM_Plex_Mono } from "next/font/google";
+
+const inter3 = IBM_Plex_Mono({ subsets: ['latin'], weight: "500" });
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="bg-black">
+      <body className={inter3.className}>{children}</body>
     </html>
   );
 }

@@ -50,16 +50,30 @@ export default function OffWhiteHomepage() {
         </div>
       </header>
 
-      <img 
-        src='/banner2.png' 
-        className="w-full max-w-screen-md mx-auto sm:max-w-full sm:h-auto sm:mx-0 hidden sm:block"
-      />
+      {/* Banner */}
+      <div className="relative w-full">
+        {/* Versión Mobile */}
+        <img 
+          src='/bannermb.png' 
+          className="w-full sm:hidden object-cover"
+          alt="Mobile Banner"
+          loading="eager"
+        />
+        
+        {/* Versión Desktop */}
+        <img 
+          src='/banner2.png' 
+          className="w-full hidden sm:block object-cover"
+          alt="Desktop Banner"
+          loading="eager"
+        />
+      </div>
 
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <div className="border hover:border-neutral-300 text-black hover:bg-neutral-900/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
+            <div className="border hover:border-neutral-300 text-black hover:bg-gray-100/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
               <a className="block overflow-hidden">
                 <img alt="ecommerce" className="w-full h-full" src="/modelo1.webp"/>
               </a>
@@ -67,7 +81,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className=" text-xs tracking-widest title-font mb-1">Hoodie</h3>
                 </div>
-                <h2 className=" title-font text-lg font-bold">Black shared logo</h2>
+                <h2 className=" title-font text-lg font-bold">BLACK SHARED LOGO</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">695 €</p>
                 </div>
@@ -81,7 +95,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Tee</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">White college skate</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">WHITE COLLEGE SKATE</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">295 €</p>
                 </div>
@@ -95,7 +109,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoodie</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Black outline arrow</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">BLACK OUTLINE ARROW</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">650 €</p>
                 </div>
@@ -109,7 +123,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Knit crewneck</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Blue camo jacquard</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">BLUE CAMO JACQUARD</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">895 €</p>
                 </div>
@@ -123,7 +137,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoodie</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Gang skate</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">G4NG STAKE</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">340 €</p>
                 </div>
@@ -137,7 +151,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Tee</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Big bookish</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">BIG BOOKISH</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">220 €</p>
                 </div>
@@ -151,7 +165,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoodie</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Out of office</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">OUT OF OFFICE</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">340 €</p>
                 </div>
@@ -165,7 +179,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoodie</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Camo jacquard</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">CAMO JACQUARD</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">340 €</p>
                 </div>
@@ -189,9 +203,9 @@ export default function OffWhiteHomepage() {
               </a>
               <div className="mt-4">
                 <div className={inter2.className}>
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Wallet</h3>
+                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Backpack</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">bookish bifold</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">BOOKISH BIFOLD</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">275  €</p>
                 </div>
@@ -205,7 +219,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Handbag</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">Leather day off</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">LEATHER DAY OFF</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">950 €</p>
                 </div>
@@ -219,7 +233,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Handbag</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">torpedo mini bag</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">TORPEDO MINI BAG</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">440 €</p>
                 </div>
@@ -233,7 +247,7 @@ export default function OffWhiteHomepage() {
                 <div className={inter2.className}>
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Sneakers</h3>
                 </div>
-                <h2 className="text-gray-900 title-font text-lg font-bold">3.0 off court</h2>
+                <h2 className="text-gray-900 title-font text-lg font-bold">3.0 OFF COURT</h2>
                 <div className={inter3.className}>
                   <p className="mt-1">650 €</p>
                 </div>
@@ -249,8 +263,8 @@ export default function OffWhiteHomepage() {
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <img src='/logo.png' className=''/>
           </a>
-          <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2025 SAINT VENETO — 
-            <a href="https://instagram.com/mauroserralvo" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@mauroserralvo CREATIVE DIRECTOR</a>
+          <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2025 SAINT VENETO —
+            <a href="https://instagram.com/mauroserralvo" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">CREATIVE DIRECTOR @mauroserralvo</a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a className="text-gray-500">

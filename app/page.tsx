@@ -73,7 +73,7 @@ export default function OffWhiteHomepage() {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-64 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <a href='/black-shared-hoodie' className="border hover:border-neutral-300 text-black hover:bg-gray-100/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
+            <a href='/black-shared-magliette' className="border hover:border-neutral-300 text-black hover:bg-gray-100/10 lg:w-1/4 md:w-1/2 p-4 w-full transition">
               <p className="block overflow-hidden cursor-pointer">
                 <img alt="ecommerce" className="w-full h-full" src="/modelo1.webp"/>
               </p>

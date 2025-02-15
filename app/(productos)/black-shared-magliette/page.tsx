@@ -35,7 +35,7 @@ export default function ProductPage() {
       <main className="container mx-auto px-4 py-24">
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Imagen del producto */}
-          <div className="lg:w-1/2 lg:sticky lg:top-24 self-start">
+          <div className="lg:w-1/2 w-full lg:sticky lg:top-24 self-start">
             <div className="aspect-square relative border border-neutral-200">
               <Image
                 src={product.image}

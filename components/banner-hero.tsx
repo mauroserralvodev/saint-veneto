@@ -17,7 +17,7 @@ const BannerHero = () => {
           alt="Desktop Banner"
           loading="eager"
         />
-      </div>
+    </div>
   )
 }
 

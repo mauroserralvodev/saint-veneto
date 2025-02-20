@@ -23,7 +23,6 @@ export default function ProductPage() {
       <Header />
       <main className="container mx-auto px-4 py-24">
         <div className="flex flex-col lg:flex-row gap-12">
-          {/* Imagen del producto */}
           <div className="lg:w-1/2 w-full lg:sticky lg:top-24 self-start">
             <div className="aspect-square relative border border-neutral-200">
               <Image
@@ -37,7 +36,6 @@ export default function ProductPage() {
             </div>
           </div>
 
-          {/* Detalles del producto */}
           <div className="lg:w-1/2">
             <h1 className="text-4xl font-bold mb-4 tracking-tight">{product.title}</h1>
             <p className="text-2xl mb-8">{product.price}</p>
@@ -98,7 +96,6 @@ export default function ProductPage() {
         </div>
       </section>
 
-      {/* Modal de error centrado */}
       {showStockAlert && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-12 shadow-lg max-w-md text-center animate-fade-in">
@@ -113,7 +110,6 @@ export default function ProductPage() {
           </div>
         </div>
       )}
-
       <Footer />
     </div>
   )

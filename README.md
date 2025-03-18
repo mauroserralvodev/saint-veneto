@@ -1,4 +1,4 @@
-Saint Veneto online store (without the contents and backend functionalities) of the website. You can visit it through the link: sv.brinpage.com 
+Saint Veneto online store (without the contents and backend functionalities) of the website. You can visit it at: sv.brinpage.com 
 
 The code that can be seen in this repository does not contain the backend of the store, payment platform or user management (currently under development).
 
